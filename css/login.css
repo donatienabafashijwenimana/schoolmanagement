@@ -1,0 +1,76 @@
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Form container styles */
+form {
+    border: blue solid 1px;
+    width: 450px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px blue;
+}
+.header{
+    font-size: 4pc;
+    background: linear-gradient(to right,#6a5a5a,rgb(89, 102, 176));
+    background-clip: text;
+    color: transparent;
+    float: right;
+}
+/* Label styles */
+label {
+    font-weight: bold;
+    margin-left: 1pc;
+    display: block;
+}
+
+/* Input styles */
+input[type="text"],
+input[type="password"],
+select {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 1pc;
+}
+
+/* Select styles */
+select {
+    margin-top: 5px;
+}
+
+/* Submit button styles */
+input[type="submit"] {
+    width: 100%;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Link styles */
+a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,172 @@
+/* Reset some default styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* Header style */
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+/* Body style */
+.body {
+    display: flex;
+    justify-content: space-between;
+    margin-top:4px;
+}
+
+/* Left menu style */
+.left-menu {
+    width: 10%;
+    background-color: #fdf5f5;
+}
+
+/* Right menu style */
+.right-menu {
+    width: 100%;
+    background-color: #e7f1e7;
+    height:24pc;
+    max-height:24pc;
+    overflow-y: auto;
+    padding: 20px;
+}
+table{
+    border-collapse: collapse;
+    border: solid blue 10px;
+}
+table thead{
+    height: 2pc;
+    color: white;
+}
+td{
+    border:solid blue 1px;
+}
+table thead td .input{
+    display: flex;
+}
+table thead td .input input{
+    width: 5.5pc;
+    margin-left: 0.3pc;
+    color: black;
+    font-weight: 500;
+    font-size: 10px;
+}
+td input{
+    width:2pc;
+    height: 2pc;
+    border: 3px solid rgb(201, 13, 13);
+    outline: invert;
+}
+table, th, td {
+    border: 1px solid blue;
+    color: black;
+    font-size: 1.5pc;
+}
+
+td {
+    height:2pc;
+    border: 1px solid blue;
+     font-size: 1pc;
+    text-align: left;
+    padding: 2px;
+}
+table thead td {
+    border: 1px solid blue;
+    color: black;
+    font-size: 1.5pc;
+}
+
+td a{
+    background-color: blue;
+    width: 100%;
+    color:white;
+    text-decoration: none;
+    padding: 0.2pc;
+    margin:3px;
+    border-radius: 0.2pc;
+}
+td a:hover{
+    background-color: rgb(56, 56, 199);
+    color: white;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+
+
+input[type="text"], input[type="number"] {
+    width: 50%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Error message style */
+.errormarks {
+    color: red;
+    font-size: 12px;
+}
+
+/* Button style */
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 50%;
+    
+    /* margin-top: 10px; */
+}
+
+input[type="submit"]:hover {
+    background-color: #314632;
+    width: 50%;
+}
+.inp{
+    display: none;
+    width: 7pc;
+}
+#m{
+    display: flex;
+    border: none;
+    height: 3pc;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#m  img{
+    height: 1.5pc;
+    cursor: pointer;
+}
+.cansel{
+    background-color: rgb(110, 5, 5);
+    padding: 0.4pc;
+    color: white;
+    border-radius: 4px;
+    top: -4px;
+    cursor: pointer;
+}
+.cansel:hover{
+    background-color: rgb(167, 27, 27);
+}
+div #add{
+    background-color: green;
+    color: white;
+    font-size: 1.3pc;
+    padding:0px 4px;
+    border: none;
+    cursor: pointer;
+    width: 1.5pc;
+    height: 1.3pc;
+}

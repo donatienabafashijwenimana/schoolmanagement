@@ -1,0 +1,287 @@
+*{
+    margin:0px;
+    padding:0px;
+    color: blue;
+    overflow-y: hidden;
+}
+.table{
+    width: 97%;
+    height: auto;
+    display: flex;
+    background-color: none;
+    border-collapse: collapse;
+    padding: 1pc;
+    justify-content: space-between;
+}
+table *{
+    color: black;
+}
+.right .form{
+    background:rgba(128, 128, 128, 0.518);
+    width: 100%;
+    height: 20pc;
+    margin: 3pc auto;
+    display: none;padding: 2pc 1pc;
+    position: absolute;
+}
+.right .form  form{
+    text-align: left;
+    padding: 1pc;
+    border-radius: 1pc;
+    margin-left:30%;
+    background-color: white;
+    color:aliceblue;
+    width: 30%;
+    overflow-x: hidden;
+    
+}
+.right .form  form input{
+    width: 100%;
+    height: 2pc;
+    border-radius: 7px;
+    outline: none;
+    padding-left: 7px;
+    margin-bottom: 0.4pc;
+    background-color:  white;
+    border:black solid 1px;
+}
+.right .form  form input[type=submit]{
+    background-color: blue;
+}
+.right .form  form select{
+    margin-bottom: 0.4pc;
+
+    width: 100%;
+    height: 2pc;
+    border-radius: 7px;
+    outline: none;
+    border:black solid 1px;
+
+}
+.right .form  form .add:hover{
+    background-color: rgb(10, 10, 44);
+}
+.right .selectinmarks form{
+    width:auto;
+    float: left;
+    position: relative;
+    margin-left: 0pc;
+    display:flex;
+}
+.right .selectinmarks form select{
+    background-color: rgb(227, 227, 240);
+    margin: 2px;
+    border-radius: 4px;
+    outline: none;
+    width:10pc;
+    height: 2pc;
+    border: 1px solid rgb(43, 43, 44);
+}
+
+.right .selectinmarks form #selectcourse{
+    display: flex;
+}
+input[type=submit]{
+    background-color: blue;
+    padding: 3px;
+    border:none;
+    border-radius: 3px;
+    color: aliceblue;
+    margin-left: 4px;
+    height:2pc;
+    margin-top:2px;
+
+}
+#cancel,#cancel2{
+    float: right;
+   margin-left: 18%;
+   width:2pc;
+   height: 2pc;
+   cursor: pointer;
+}
+input[type=submit]:hover{
+    background-color: rgb(1, 1, 112);
+}
+.table table{
+    width: 49%;
+    height: 2pc;
+    max-height: 2pc;
+    border-collapse: collapse;
+    
+}
+table thead{
+    background: rgb(235, 231, 231);
+    width:100%;
+    color: white;
+    
+}
+table thead td{
+
+    border: 1px solid blue;
+    font-size: 1.5pc;
+    padding-right: 0.5pc;
+    align-items: center;
+
+}
+.table table tr td a{
+    color:black;
+    background-color: blue;
+}
+.table table tr td{
+    border:solid blue 1px;
+}
+table thead td button{
+    height:1.3pc;
+    border-radius: 0.2pc;
+    background-color: darkblue;
+    border:none;
+    margin-top: 0.3pc;
+    margin-right: 0.2pc;
+    padding:0.1pc;
+    cursor:pointer;
+    float: right;
+    
+}
+table thead td button img{
+    width:1pc;
+    height:1pc;
+}
+td{
+    border:solid blue 1px;
+    padding-left: 7px;
+    text-align:left ;
+}
+table tr td form{
+background-color: rgb(44, 41, 41);
+position:absolute;
+color: white;
+padding:0.5pc;
+border-radius: 0.3pc;
+margin-left:10%;
+margin-top:3pc;
+display:none
+}
+table thead td form input[type=submit]{
+    background: darkblue;
+    border: none;
+    border-radius: 0.2pc;
+    
+}
+.right .empty{
+    background-color: hsla(0, 71%, 96%, 0.89);
+    max-width: 100%;
+    align-items: center;
+    height:5pc;color: rgb(10, 10, 10);
+    font-size: 3pc;
+    font-weight: bolder;
+    height:auto;
+    padding:2pc 3pc;
+}
+.right .empty img{
+    width:20%;
+    height:10pc;
+    
+}
+.right .assign{
+    display: flex;
+    text-align: left;
+    justify-content: left;
+    justify-content: space-between;
+    overflow-x: hidden;
+    padding-right: 1pc;
+
+}
+.right .assign .a{
+    text-align: right;
+    width: 70%;
+}
+.right .assign select{
+    background-color: rgb(227, 227, 240);
+    margin: 2px;
+    border-radius: 4px;
+    outline: none;
+    width:auto;
+    height: 2pc;
+    border: 1px solid rgb(43, 43, 44);
+}
+.a button[name=assign]{
+    background-color: rgb(0, 0, 53);
+    padding: 3px;
+    border:none;
+    border-radius: 3px;
+    color: aliceblue;
+    margin-left: 4px;
+    height:2pc;
+    margin-top:2px;
+}
+tr td #delete{
+    background-color: red;
+    color: white;
+    padding: 3px;
+    text-decoration: none;
+    border-radius: 4px;
+    width: 100%;
+}
+tr td #update{
+    background-color: blue;
+    padding: 3px;
+    text-decoration: none;
+    border-radius: 4px;
+    color: white;
+    width: 100%;
+}
+tr td #delete:hover{
+    background-color: rgb(113, 2, 2);
+}
+tr td #update:hover{
+    background-color: rgba(25, 25, 212, 0.954);
+}
+#action{
+    width: 8pc;
+}
+.update{
+    overflow-x: hidden;
+    background: rgba(128, 128, 128, 0.66);
+    height: 20pc;
+    width: 80%;
+    padding: 1pc;
+    margin-top: 0pc;
+    margin-left:0;
+    box-shadow: #333 solid;
+    position: absolute;
+    text-align: left;
+}
+.update form{
+    width: 40%;
+    padding:1pc;
+    background-color: white;
+    margin:0 auto;
+}
+.update form input,select{
+    width: 95%;
+    height: 2pc;
+    border-radius: 0.3pc;
+    overflow-x: hidden;
+    outline: none;
+    padding: 0.3pc;
+}.update form input{
+    height: 1.5pc;
+    border: 1px solid black;
+}
+.update form input
+.uplevel{
+    margin: 0 auto;
+    background-color: grey;
+}
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
